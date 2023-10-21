@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-menu{
+    background-color: #683091;
+    padding: 10px 0;
+    padding-right: 30px;
+}
+.slider{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-image: url(img/1210001.jpg);
+    font-family: 'AdorshoLipi', sans-serif;
+    width: 100%;
+}
+.dasbord{
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 16px;
+}
+.dasbord:hover{
+    text-decoration: underline;
+    color: #F1F1F1;
+}
+.container{
+    background-color: white;
+    padding: 2px 16px;
+}
+.header{
+   position: relative;
+}
+#overly-color{
+   position: absolute;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) center center / cover;
+   height: 381px;
+   z-index: 1;
+
+   color:yellow;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   text-shadow: -1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000;
+   
+}
+.logo{
+    width: 100px;
+}
+
+@media (max-width: 991.98px) { 
+    #overly-color{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) center center / cover;
+        height: 200px;
+        z-index: 1;
+     
+        color:yellow;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        text-shadow: -1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000;
+        font-size: 12px;
+
+    }
+    .logo{
+        width: 50px;
+    }
+}
